@@ -2,9 +2,6 @@
 
 **Author**: Luke Fixari  
 **Date of Submission**: 25 April 2025  
-**Course Name**: Web Technologies
-**Instructor's Name**: Shawna Sumemrs
-**Semester**: Spring 2025
 
 ## Project Overview
 
