@@ -11,15 +11,18 @@
 This is a web application built for the **Gaming Gear Rental** service. It allows users to browse gaming gear products, add them to their cart, and place an order. The web app features user authentication, product management, and order processing. The back-end interacts with a MySQL database, where product details and user orders are stored and retrieved.
 
 ## Setup Instructions
+
+1. **Download .zip File**:
+     - Go to the repositroy where it says "Code" and click the down arrow then click download ZIP
      
-1. **Install Dependencies**:
+2. **Install Dependencies**:
    - Ensure you have a local server (e.g., XAMPP or WAMP) to run PHP and MySQL.
    
 3. **Create Database**:
    - Import the provided `.sql` file into your MySQL database to set up the necessary tables for users, products, and orders.
    
 4. **Configure Database**:
-   - Update the database connection in `includes/config.php` with your MySQL username, password, and database name.
+   - Update the database connection in `includes/config.php` with your MySQL username, password, and database name (if needed).
    
 5. **Put .zip File into htdocs folder**:
    - Move the .zip file into the htdocs folder in the XAMPP application folder
@@ -28,13 +31,13 @@ This is a web application built for the **Gaming Gear Rental** service. It allow
     - Make sure all of the servers are running
 
 7. **Put URL into the link slot**:
-    - type localhost/GameRental/Online-GamingGear-main/index.php
+    - type localhost/GameGear/Online-GamingGear-main/index.php
 
 
 
 ## Description
 
-The **Gaming Gear** web application is designed to provide users with an easy and intuitive platform to rent gaming gear. Users can browse through a catalog of available gaming gear, such as controllers and headsets, view their prices, and add them to their cart. They can then log in (or register if they are new users), proceed to checkout, and place their order. The application is integrated with a database where product details, user information, and orders are stored and retrieved.
+The **Gaming Gear** web application is designed to provide users with an easy and intuitive platform to buy (fake) gaming gear. Users can browse through a catalog of available gaming gear, such as controllers and headsets, view their prices, and add them to their cart. They can then log in (or register if they are new users), proceed to checkout, and place their order. The application is integrated with a database where product details, user information, and orders are stored and retrieved.
 
 This web application provides a user-friendly interface for managing products, viewing shopping carts, and processing orders. It also features an authentication system for secure login and registration.
 
