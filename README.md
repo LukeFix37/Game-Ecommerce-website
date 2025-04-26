@@ -22,7 +22,8 @@ This is a web application built for the **Gaming Gear Rental** service. It allow
    - Update the database connection in `includes/config.php` with your MySQL username, password, and database name (if needed).
    
 5. **Put .zip File into htdocs folder**:
-   - Move the .zip file into the htdocs folder in the XAMPP application folder
+   - Create a folder within htdocs in the XAMPP app folder and name it 'GameGear' then create another folder and name that
+     'Online-GamingGear-main' and then place the `.zip` folder in there and unzip it
 
 6. **Turn on XAMPP servers**:
     - Make sure all of the servers are running
